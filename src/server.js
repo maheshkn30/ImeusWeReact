@@ -22,7 +22,7 @@ app.post("/addMember", async function (req, res) {
 mongoose
   .connect("mongodb://localhost:27017/demo")
   .then(function () {
-    app.listen(5000, function () {
+    app.listen(3000, function () {
       console.log("Node API running successfully");
     });
     console.log("Mongoose connected");
