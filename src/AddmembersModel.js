@@ -28,15 +28,15 @@ const addMembersSchema = new mongoose.Schema(
       default: "living",
     },
     birthDay: {
-      type: String, // or use Number if storing as a number
+      type: String, 
       default: "",
     },
     birthMonth: {
-      type: String, // or use Number if storing as a number
+      type: String, 
       default: "",
     },
     birthYear: {
-      type: String, // or use Number if storing as a number
+      type: String, 
       default: "",
     },
     birthPlace: {
