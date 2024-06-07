@@ -6,7 +6,7 @@ import axios from "axios";
 
 const AddMember = ({ onCancel, onSuccess }) => {
   const [formData, setFormData] = useState({
-    relationshipType: "",
+    relationalshiptype: "",
     firstName: "",
     middleName: "",
     surname: "",
@@ -21,7 +21,7 @@ const AddMember = ({ onCancel, onSuccess }) => {
 
   useEffect(() => {
     const isComplete =
-      formData.relationshipType.trim() !== "" &&
+      formData.relationalshiptype.trim() !== "" &&
       formData.firstName.trim() !== "" &&
       formData.surname.trim() !== "" &&
       formData.status.trim() !== "" &&
@@ -49,7 +49,7 @@ const AddMember = ({ onCancel, onSuccess }) => {
       );
       console.log("Data saved:", response.data);
       setFormData({
-        relationshipType: "",
+        relationalshiptype: "",
         firstName: "",
         middleName: "",
         surname: "",
@@ -165,13 +165,13 @@ const AddMember = ({ onCancel, onSuccess }) => {
             <input
               required
               type="text"
-              name="relationshipType"
-              value={formData.relationshipType}
+              name="relationalshiptype"
+              value={formData.relationalshiptype}
               onChange={handleChange}
               autoComplete="off"
               className="inputSearch"
             />
-            <label className="user-label" htmlFor="relationshipType">
+            <label className="user-label" htmlFor="relationalshiptype">
               Relationship Type*
             </label>
           </div>
