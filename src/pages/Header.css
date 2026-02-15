@@ -75,14 +75,15 @@ h2 {
   font-weight: 500;
 }
 .subproperty {
-  background-color: #bac8ff;
+  background-color: #bfcaf3;
   padding: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .AddButton {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 4cm;
   height: 1.1cm;
